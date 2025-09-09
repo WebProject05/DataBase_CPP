@@ -1,0 +1,36 @@
+Database Commands
+
+
+HELP: Displays the full list of available commands and their syntax.
+
+SHOW / SELECT: Displays all data in all columns of the database.
+
+MAKE_C <column_name>: Adds a new column to the database.
+
+DELETE_C <column_name>: Deletes a specific column by its name.
+
+MAKE_R: Adds a new, empty row to the end of the database.
+
+INSERT_R <value1> <value2> ...: Inserts a new row with the specified values.
+
+UPDATE <row_index> <col_name> <new_value>: Updates a single cell at a specified row and column.
+
+DELETE_R <row_index>: Deletes an entire row by its index.
+
+SELECT <column_name>: Displays only the data from a single, specified column.
+
+SELECT WHERE <column_name> <operator> <value>: Displays all rows that match a specific condition (e.g., WHERE age > 25).
+
+DELETE_R WHERE <column_name> <operator> <value>: Deletes all rows that match a specific condition.
+
+UPDATE WHERE <column_name> <operator> <value> SET <new_col_name> = <new_value>: Updates a column for all rows that match a specific condition.
+
+COUNT ROWS: Returns the total number of rows.
+
+COUNT COLS: Returns the total number of columns.
+
+GET LOGS: Displays the history of database modification commands.
+
+SAVE: Saves the current in-memory database to the file.
+
+EXIT: Saves the database and closes the program.
