@@ -1,5 +1,0 @@
-ID,Name,Email,City,Phone
-1,Alice,alice@example.com,New York,N/A
-2,Bob,bob@example.com,London,N/A
-3,Charlie,charlie@example.com,Paris,N/A
-4,santosh,snatosh@gmaol.com,hyd,94252526
