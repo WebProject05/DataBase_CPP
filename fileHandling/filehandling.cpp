@@ -74,8 +74,8 @@ void addRecord() {
         std::cin >> newEmail;
         std::cout << "City: ";
         std::cin >> newCity;
-        std::cout << "Phone: ";
-        std::cin >> Phone;
+        // std::cout << "Phone: ";    Modification has to be done for this logic using a global boolean variable
+        // std::cin >> Phone;
         outFile << newId << "," << newName << "," << newEmail << "," << newCity << "," << Phone << "\n";
         outFile.close();
         std::cout << "\nNew record added successfully to the database." << std::endl;
