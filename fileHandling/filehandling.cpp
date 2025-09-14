@@ -11,9 +11,6 @@ void createDatabase() {
     if (outFile.is_open()) {
         std::cout << "\nCreating new database file." << std::endl;
         outFile << "ID,Name,Email,City\n";
-        outFile << "1,Alice,alice@example.com,New York\n";
-        outFile << "2,Bob,bob@example.com,London\n";
-        outFile << "3,Charlie,charlie@example.com,Paris\n";
         outFile.close();
         std::cout << "Database file created with initial data." << std::endl;
     } else {
@@ -76,7 +73,7 @@ void addRecord() {
         std::cin >> newCity;
         // std::cout << "Phone: ";    Modification has to be done for this logic using a global boolean variable
         // std::cin >> Phone;
-        outFile << newId << "," << newName << "," << newEmail << "," << newCity << "," << Phone << "\n";
+        outFile << newId << "," << newName << "," << newEmail << "," << newCity << "," << "\n";
         outFile.close();
         std::cout << "\nNew record added successfully to the database." << std::endl;
     } else {
